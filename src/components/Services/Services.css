@@ -1,0 +1,19 @@
+.services {
+  padding: 60px 0;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.services__heading {
+  color: #ff0000;
+  margin-bottom: 35px;
+  font-size: 2.5rem;
+}
+
+.services__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+.hero-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container,
+.right-container {
+  max-width: 550px;
+  margin: 0 0.5rem;
+}
+
+.left-container p {
+  line-height: 1.5rem;
+}
+
+.left-container h1 {
+  line-height: 2.9rem;
+  font-size: 2.2rem;
+}
+
+.right-container iframe {
+  width: 500px;
+  border-radius: 1rem;
+}
+
+@media (max-width: 770px) {
+  .hero-container {
+    display: block;
+  }
+  .right-container iframe {
+    width: 100%;
+  }
+  .left-container,
+  .right-container {
+    margin-bottom: 1.5rem;
+  }
+}
